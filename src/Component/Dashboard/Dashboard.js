@@ -10,7 +10,7 @@ const Dashboard = () => {
   }, [])
 
   return (
-    <div className='row mt-5'>
+    <div className='row mt-4'>
       <div className='col-md-6 col'>
         <BarChart width={730} height={250} data={data}>
           <CartesianGrid strokeDasharray="3 3" />
