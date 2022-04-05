@@ -19,7 +19,7 @@ const Home = () => {
         <h1 className='fw-bold'>Customer Reviews(3)</h1>
         <div className='py-4'>
           <CustomerReview></CustomerReview>
-          <button type="button" class="btn btn-primary text-white rounded button-home"><CustomLink to={'reviews'}>Show All Review</CustomLink></button>
+          <button type="button" class="btn btn-primary text-white rounded button-home mt-2"><CustomLink to={'reviews'}>Show All Review</CustomLink></button>
         </div>
       </div>
 

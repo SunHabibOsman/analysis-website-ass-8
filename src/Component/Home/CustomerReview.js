@@ -8,6 +8,7 @@ const CustomerReview = () => {
   return (
     <div className='container'>
       <div className='row'>
+
         {
           madeSlice.map(revie => <Threereview
             reviews={revie}
