@@ -10,7 +10,7 @@ const Dashboard = () => {
   }, [])
 
   return (
-    <div className='row mt-4'>
+    <div className='row mt-4 container'>
       <div className='col-md-6 col'>
         <BarChart width={730} height={250} data={data}>
           <CartesianGrid strokeDasharray="3 3" />
@@ -29,7 +29,26 @@ const Dashboard = () => {
         </PieChart>
       </div>
 
-
+      <div>
+        <LineChart
+          width={500}
+          height={300}
+          data={data}
+        >
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="month" />
+          <YAxis />
+          <Tooltip />
+          <Legend />
+          <Line
+            type="monotone"
+            dataKey="sell"
+            stroke="#8884d8"
+            activeDot={{ r: 8 }}
+          />
+          <Line type="monotone" dataKey="revenue" stroke="#82ca9d" />
+        </LineChart>
+      </div>
     </div>
   );
 };
