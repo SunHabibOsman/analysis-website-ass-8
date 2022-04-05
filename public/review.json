@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "first_name": "Pammi",
+    "last_name": "Guyonnet",
+    "image": "reviewimg (2).jpg",
+    "review": 4,
+    "feedback": "best product i ever seen recomendded "
+  },
+  {
+    "id": 2,
+    "first_name": "Issiah",
+    "last_name": "Andrin",
+    "image": "reviewimg (7).jpg",
+    "review": 4,
+    "feedback": "Alaways i  recomendded "
+  },
+  {
+    "id": 3,
+    "first_name": "Chucho",
+    "last_name": "Harmon",
+    "image": "reviewimg (6).jpg",
+    "review": 2,
+    "feedback": "I will purchasing again thanks"
+  },
+  {
+    "id": 4,
+    "first_name": "Bryant",
+    "last_name": "Fulger",
+    "image": "reviewimg (5).jpg",
+    "review": 4,
+    "feedback": "best pc that i purchase recomendded "
+  },
+  {
+    "id": 5,
+    "first_name": "Vince",
+    "last_name": "Foynes",
+    "image": "reviewimg (1).jpg",
+    "review": 4,
+    "feedback": "100% good quality  "
+  },
+  {
+    "id": 6,
+    "first_name": "Clayborn",
+    "last_name": "Dunan",
+    "image": "reviewimg (3).jpg",
+    "review": 3,
+    "feedback": "Always i purchase pc from there "
+  }
+]
